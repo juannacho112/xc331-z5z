@@ -37,21 +37,24 @@ const AboutSection = () => {
       
       <div className="grid lg:grid-cols-2 gap-16 items-center">
         <div className="space-y-8">
-          <div className="prose prose-lg text-foreground">
-            <p className="text-lg leading-relaxed">
-              My journey with AI started in college with a Computer Science background and deep hobbyist hacking roots. 
-              What began as curiosity became a passion for exploring how AI can transform business, content creation, and culture.
+          <div className="space-y-6">
+            <div className="text-xl font-medium text-gradient-primary">
+              Started with computers in college. Got hooked on AI. Never looked back.
+            </div>
+            
+            <p className="text-lg leading-relaxed text-muted-foreground">
+              I build AI stuff for fun and business. Self-hosted models, marketing automation, 
+              creative tools - you name it.
             </p>
             
-            <p className="text-lg leading-relaxed">
-              I'm hands-on with AI for fun, business, and creativity - from building self-hosted models to creating 
-              automated marketing systems. Following Gary's advice on NFTs proved I can execute when opportunities arise.
+            <p className="text-lg leading-relaxed text-muted-foreground">
+              Followed Gary's NFT advice early. Made it work. That's how I operate - 
+              <span className="text-foreground font-medium">spot opportunities, execute fast.</span>
             </p>
             
-            <p className="text-lg leading-relaxed">
-              I believe VaynerMedia has the perfect opportunity to scale AI tools for creators, brands, and fans. 
-              The combination of storytelling expertise and AI innovation can democratize content creation at unprecedented scale.
-            </p>
+            <div className="text-lg text-foreground border-l-4 border-primary pl-6 py-2 bg-primary/5 rounded-r-lg">
+              VaynerMedia + AI = the future of content creation at scale.
+            </div>
           </div>
         </div>
         
